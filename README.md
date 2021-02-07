@@ -12,7 +12,7 @@
     <img src="https://github.com/edesz/pipenv-tox/workflows/CodeQL/badge.svg"/>
   </a>
   <a href="https://en.wikipedia.org/wiki/Open-source_software"><img alt="Open Source?: Yes" src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github"></a>
-  <a href="https://pyup.io/repos/github/edesz/pipenv-tox/"><img src="https://pyup.io/repos/github/edesz/pipenv-tox/shield.svg" alt="Updates" /></a>
+  <a href="https://api.dependabot.com/badges/status?host=github&repo=edesz/pipenv-tox"><img src="https://api.dependabot.com/badges/status?host=github&repo=edesz/pipenv-tox" alt="Updates" /></a>
 </div>
 <div align="center">
   <a href="https://www.codacy.com/gh/edesz/pipenv-tox/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=edesz/pipenv-tox&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/c6c87007799f4af48f915035c15e3745"/></a>
