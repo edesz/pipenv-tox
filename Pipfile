@@ -10,10 +10,7 @@ python_version = '3.8'
 one = "python3 abc.py -c 1"
 
 [packages]
-pytest = "*"
-starlette = "*"
-fastapi = "*"
-requests = "*"
-coverage = "*"
-numpy = "*"
-pandas = "*"
+coverage = "==5.4"
+pytest = "==6.2.2"
+fastapi = "==0.63.0"
+requests = "==2.25.1"
