@@ -26,37 +26,37 @@ Here, `tox` defines the virtual environments but, for all `virtualenv`s, Python 
 
 ## Notes
 1.  The `virtualenv`'s dependencies are only specified by
-    - [`tox`'s `deps` variable](https://tox.readthedocs.io/en/latest/example/basic.html#depending-on-requirements-txt-or-defining-constraints)
-      - this is [set to the value `pipenv`](https://pipenv.kennethreitz.org/en/latest/advanced/#tox-automation-project)
+    -   [`tox`'s `deps` variable](https://tox.readthedocs.io/en/latest/example/basic.html#depending-on-requirements-txt-or-defining-constraints)
+        -   this is [set to the value `pipenv`](https://pipenv.kennethreitz.org/en/latest/advanced/#tox-automation-project)
 
 This means that no dependencies are manually assigned by `tox`'s `deps` instruction.
 
 ## Usage
-1. Run a script in `tox` environment named `one`
+1.  Run a script in `tox` environment named `one`
 
    ```bash
    make one
    ```
 
-2. Run a script in `tox` environment named `tests`
+2.  Run a script in `tox` environment named `tests`
 
    ```bash
    make tests
    ```
 
-3. Clean up
+3.  Clean up
 
    ```bash
    make clean
    ```
 
-4. Run all `make` targets together with
+4.  Run all `make` targets together with
 
-   ```bash
-   make one tests clean
-   ```
+    ```bash
+    make one tests clean
+    ```
 
-   which produces the following output
+    which produces the following output
 
    ```bash
    + one
