@@ -1,4 +1,6 @@
-# `pipenv-tox`
+<div align="center">
+  <h1>pipenv-tox</h1>
+</div>
 
 <div align="center">
   <a href="https://opensource.org/licenses/MIT"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-brightgreen.svg"></a>
