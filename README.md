@@ -27,7 +27,7 @@ Here, `tox` defines the virtual environments but, for all `virtualenv`s, Python 
 ## Notes
  1. The `virtualenv`'s dependencies are only specified by
       - [`tox`'s `deps` variable](https://tox.readthedocs.io/en/latest/example/basic.html#depending-on-requirements-txt-or-defining-constraints)
-          - this is [set to the value `pipenv`](https://pipenv.kennethreitz.org/en/latest/advanced/#tox-automation-project)
+         - this is [set to the value `pipenv`](https://pipenv.kennethreitz.org/en/latest/advanced/#tox-automation-project)
 
 This means that no dependencies are manually assigned by `tox`'s `deps` instruction.
 
