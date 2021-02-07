@@ -47,7 +47,7 @@ This means that no dependencies are manually assigned by `tox`'s `deps` instruct
     make clean
     ```
 
-4.  Run all `make` targets together with
+4.  (Optional) Run all [`make` targets](https://www.gnu.org/prep/standards/html_node/Standard-Targets.html) together with
     ```bash
     make one tests clean
     ```
