@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = '3.8'
+
+[scripts]
+one = "python3 abc.py -c 1"
+
+[packages]
+pytest = "*"
+starlette = "*"
+fastapi = "*"
+requests = "*"
+coverage = "*"
+numpy = "*"
+pandas = "*"
