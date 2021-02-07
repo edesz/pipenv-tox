@@ -25,8 +25,7 @@ Here, `tox` defines the virtual environments but, for all `virtualenv`s, Python 
 ## Notes
   1. The `virtualenv`'s dependencies are only specified by
        - [`tox`'s `deps` variable](https://tox.readthedocs.io/en/latest/example/basic.html#depending-on-requirements-txt-or-defining-constraints)
-         - this is [specified to be `pipenv`](https://pipenv.kennethreitz.org/en/latest/advanced/#tox-automation-project)
-  2. Starlette was removed from `requirements_test.txt` due to breaking changes for `fastapi` reported in [#2342](https://github.com/tiangolo/fastapi/issues/2342).
+         - this is [set to the value `pipenv`](https://pipenv.kennethreitz.org/en/latest/advanced/#tox-automation-project)
 
 This means that no dependencies are manually assigned to `tox`'s `deps` instruction.
 
