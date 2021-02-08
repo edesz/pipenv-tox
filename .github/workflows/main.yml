@@ -28,7 +28,7 @@ jobs:
         with:
           workingDirectory: ./src
           coverageCommand: coverage xml
-          coverageLocations: ${{github.workspace}}/src/coverage.xml:coverage.py
+          coverageLocations: coverage.xml:coverage.py
 
   coveralls_finish:
     needs: commit
