@@ -26,6 +26,7 @@ jobs:
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_TOKEN }}
         with:
+          workingDirectory: ./src
           coverageCommand: coverage xml
           coverageLocations: ${{github.workspace}}/src/coverage.xml:coverage
 
