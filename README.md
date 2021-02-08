@@ -14,6 +14,7 @@
   <a href="https://en.wikipedia.org/wiki/Open-source_software"><img alt="Open Source?: Yes" src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github"></a>
 </div>
 <div align="center">
+  <a href='https://coveralls.io/github/edesz/pipenv-tox?branch=main'><img src='https://coveralls.io/repos/github/edesz/pipenv-tox/badge.svg?branch=main' alt='Coverage Status' /></a>
   <a href="https://www.codacy.com/gh/edesz/pipenv-tox/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=edesz/pipenv-tox&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/c6c87007799f4af48f915035c15e3745"/></a>
   <a href="https://wakatime.com/badge/github/edesz/pipenv-tox.svg"><img alt="wakatime" src="https://wakatime.com/badge/github/edesz/pipenv-tox.svg"/></a>
 </div>
