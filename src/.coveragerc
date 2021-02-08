@@ -9,7 +9,7 @@ omit =
   main.py
 
 [xml]
-output = tests/coverage.xml
+output = coverage.xml
 
 [report]
 # Regexes for lines to exclude from consideration
