@@ -27,6 +27,11 @@ jobs:
           base-path: 'src/'
         env:
           GITHUB_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+      - name: Run codacy-coverage-reporter
+        uses: codacy/codacy-coverage-reporter-action@master
+        with:
+          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
+          coverage-reports: src/coverage.xml
 
   coveralls_finish:
     needs: commit
@@ -39,14 +44,14 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
   
-  codacy-coverage-reporter:
-    needs: commit
-    runs-on: ubuntu-latest
-    name: codacy-coverage-reporter
-    steps:
-      - uses: actions/checkout@master
-      - name: Run codacy-coverage-reporter
-        uses: codacy/codacy-coverage-reporter-action@master
-        with:
-          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
-          coverage-reports: src/coverage.xml
+#   codacy-coverage-reporter:
+#     needs: commit
+#     runs-on: ubuntu-latest
+#     name: codacy-coverage-reporter
+#     steps:
+#       - uses: actions/checkout@master
+#       - name: Run codacy-coverage-reporter
+#         uses: codacy/codacy-coverage-reporter-action@master
+#         with:
+#           project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
+#           coverage-reports: src/coverage.xml
