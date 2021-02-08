@@ -22,7 +22,7 @@
 </div>
 
 ## About
-This is a simple example of using the Python packages [`tox`](https://tox.readthedocs.io/en/latest/) and [`pipenv`](https://docs.pipenv.org/) together.
+This is a simple project with an example of using the Python packages [`tox`](https://tox.readthedocs.io/en/latest/) and [`pipenv`](https://docs.pipenv.org/) together.
 
 Here, `tox` defines the virtual environments but, for all `virtualenv`s, Python dependencies are specified in `requirements.txt` and are handled by `pipenv`.
 
