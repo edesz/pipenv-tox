@@ -24,7 +24,7 @@ jobs:
         with:
           parallel: true
           flag-name: Unit Test
-          base-path: './src'
+          base-path: 'src/'
         env:
           GITHUB_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
 
