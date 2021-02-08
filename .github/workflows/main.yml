@@ -14,21 +14,19 @@ jobs:
       - name: Upgrade python-pip
         run: python -m pip install --upgrade pip
       - name: Install dependencies
-        run: pip install -r requirements_test.txt
+        run: pip install tox
+      - name: Run script in virtualenv one
+        run: make one
       - name: Run tests
-        run: coverage run -m pytest
-        working-directory: ./src
-      - name: Report on results
-        run: coverage report -m
-        working-directory: ./src
-      - name: Publish code coverage
-        uses: paambaati/codeclimate-action@v2.7.5
-        env:
-          CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_TOKEN }}
+        run: make tests
+      - name: Coveralls
+        uses: AndreMiras/coveralls-python-action@develop
         with:
-          workingDirectory: ./src
-          coverageCommand: coverage xml
-          coverageLocations: coverage.xml:coverage.py
+          parallel: true
+          flag-name: Unit Test
+          base-path: 'src/'
+        env:
+          GITHUB_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
 
   coveralls_finish:
     needs: commit
