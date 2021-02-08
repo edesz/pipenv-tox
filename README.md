@@ -12,6 +12,7 @@
     <img src="https://github.com/edesz/pipenv-tox/workflows/CodeQL/badge.svg"/>
   </a>
   <a href="https://en.wikipedia.org/wiki/Open-source_software"><img alt="Open Source?: Yes" src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github"></a>
+  <a href="https://codebeat.co/projects/github-com-edesz-pipenv-tox-main"><img alt="codebeat badge" src="https://codebeat.co/badges/4cba9977-d7bb-42de-b273-c4f4672ab150" /></a>
 </div>
 <div align="center">
   <a href='https://coveralls.io/github/edesz/pipenv-tox?branch=main'><img src='https://coveralls.io/repos/github/edesz/pipenv-tox/badge.svg?branch=main' alt='Coverage Status' /></a>
