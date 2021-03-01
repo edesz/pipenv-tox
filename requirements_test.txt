@@ -1,4 +1,4 @@
-coverage==5.4
+coverage==5.5
 pytest==6.2.2
 fastapi==0.63.0
 requests==2.25.1
